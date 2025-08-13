@@ -1,12 +1,12 @@
 package co.devfoundry.chees;
 
-public abstract class CheesPiece {
+public abstract class ChessPiece {
     protected String name;
     protected String numberPosition;
     protected String letterPosition;
     protected Color color;
 
-    public CheesPiece(String name, String numberPosition, String letterPosition, String colorName) {
+    public ChessPiece(String name, String numberPosition, String letterPosition, String colorName) {
         this.name = name;
         this.numberPosition = numberPosition;
         this.letterPosition = letterPosition;

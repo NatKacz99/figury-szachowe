@@ -1,6 +1,6 @@
 package co.devfoundry.chees;
 
-public class BlackQueen extends CheesPiece{
+public class BlackQueen extends ChessPiece {
     public BlackQueen(String name) {
         super(name, "2", "d", "black");
     }
